@@ -59,3 +59,32 @@ L.tileLayer('http://{s}.tile.thunderforest.com/cycle/{z}/{x}/{y}.png', {
 
 }).addTo(map);
 
+var marker = L.marker([46.00087, 10.33293], {draggable: true});
+//marker.draggable(true);
+marker.addTo(map);
+marker.bindPopup("Fuck the world!!!");
+
+
+// (node(46.00014,10.33059,46.00136,10.33536);<;);out;
+
+
+/*
+
+<bbox-query s="46.00014" n="46.00136" w="10.33059" e="10.33536"/>
+<recurse type="node-way"/>
+<!-- added by auto repair -->
+<union>
+  <item/>
+  <recurse type="down"/>
+</union>
+<!-- end of auto repair -->
+<print/>
+
+
+*/
+
+/*
+<user name="Gianmario Salvetti"/>
+<print mode="meta"/>
+*/
+
